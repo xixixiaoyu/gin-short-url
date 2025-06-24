@@ -1,0 +1,57 @@
+# Go 相关
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# 构建输出
+bin/
+dist/
+build/
+
+# 依赖目录
+vendor/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 覆盖率报告
+coverage.out
+coverage.html
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# Docker 相关
+.dockerignore
+
+# 其他
+*.pid
+*.seed
+*.pid.lock
